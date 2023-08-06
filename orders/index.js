@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require("cookie-parser");
 
 
+const fs = require('fs');
 
 const db = require('./models');
 const orderRouter = require('./routes/orders');
